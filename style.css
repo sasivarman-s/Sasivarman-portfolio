@@ -8,7 +8,7 @@ html {
 }
 
 .tracking-in-expand-fwd-bottom {
-   animation: tracking-in-expand-fwd-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+   animation: tracking-in-expand-fwd-bottom 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 @keyframes tracking-in-expand-fwd-bottom {
@@ -29,7 +29,7 @@ html {
 }
 
 .focus-in-contract {
-   animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+   animation: focus-in-contract 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 @keyframes focus-in-contract {
@@ -46,7 +46,7 @@ html {
 }
 
 .bounce-bottom {
-   animation: bounce-bottom 0.9s both;
+   animation: bounce-bottom 1.5s both;
 }
 
 @keyframes bounce-bottom {

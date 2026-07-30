@@ -17,6 +17,8 @@ btn.addEventListener("click", (e)=>{
     end.style.fontSize = "20px"
     end.style.borderRadius = "30px"
     end.innerHTML = "Submitted successfully, I'll contact you ASAP!..."
+
+    
 })
 
 
