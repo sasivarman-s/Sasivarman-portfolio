@@ -8,7 +8,7 @@
 
 **My personal developer portfolio — showcasing who I am, what I build, and how to reach me.**
 
-[🔗 Live Demo](https://sasivarman-s.github.io/portfolio-revamp/) · [📂 Report an Issue](https://github.com/sasivarman-s/portfolio-revamp/issues)
+[🔗 Live Demo](https://sasivarman-portfolio.vercel.app/) · [📂 Report an Issue](https://github.com/sasivarman-s/portfolio-revamp/issues)
 
 </div>
 
@@ -18,7 +18,7 @@
 
 This is my personal **portfolio website**, built entirely with **HTML** and **Tailwind CSS**. It's a multi-page site that introduces me as a web developer and 2nd-year CSE student, highlights the projects I've built (Mark Calculator, ERP Simulator, Book Catalogue, Tourism, and Food Store websites), and gives visitors easy access to my resume, tools, and a way to reach out.
 
-> 🔥 **[Click here to view the live website](https://sasivarman-s.github.io/portfolio-revamp/)**
+> 🔥 **[Click here to view the live website](https://sasivarman-portfolio.vercel.app/)**
 
 ---
 
@@ -46,9 +46,9 @@ This is my personal **portfolio website**, built entirely with **HTML** and **Ta
 
 ## 🚀 Live Demo
 
-The project is deployed using **GitHub Pages**:
+The project is deployed using **Vercel**:
 
-👉 **[https://sasivarman-s.github.io/portfolio-revamp/](https://sasivarman-s.github.io/portfolio-revamp/)**
+👉 **[https://sasivarman-portfolio.vercel.app/](https://sasivarman-portfolio.vercel.app/)**
 
 ---
 
@@ -101,7 +101,7 @@ portfolio-revamp/
 - Structuring a multi-page personal website with consistent navigation
 - Rapid responsive UI development using Tailwind CSS utility classes
 - Organizing a personal brand online: About, Projects, Resume, and contact sections
-- Deploying static sites using GitHub Pages
+- Deploying static sites using Vercel
 
 ---
 
