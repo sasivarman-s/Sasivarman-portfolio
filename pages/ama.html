@@ -12,6 +12,26 @@
     <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
     <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
     <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+    <style>
+        .pulsate-fwd {
+            animation: pulsate-fwd 0.5s ease-in-out infinite both;
+        }
+
+
+        @keyframes pulsate-fwd {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
 </head>
 
 <body class="bg-indigo-200 hover:cursor-pointer">
@@ -88,23 +108,27 @@
                 </div>
                 <div class="flex flex-row  justify-center items-center space-x-1">
                     <label class="text-2xl">Name:</label>
-                    <input id="name" type="text" class="shadow-lg border rounded-lg p-2" placeholder="Enter your Name" required>
+                    <input id="name" type="text" class="shadow-lg border rounded-lg p-2" placeholder="Enter your Name"
+                        required>
                 </div>
                 <div class="flex flex-row  justify-center items-center space-x-1 ">
                     <label class="text-2xl">Phone number:</label>
-                    <input id="phnumber" type="text" class="shadow-lg border rounded-lg p-2" placeholder="Enter Mobile Number" required>
+                    <input id="phnumber" type="text" class="shadow-lg border rounded-lg p-2"
+                        placeholder="Enter Mobile Number" required>
                 </div>
                 <div class="flex flex-row  justify-center items-center space-x-1">
                     <label class="text-2xl">Gmail:</label>
-                    <input id="mail" type="email" class="shadow-lg border rounded-lg p-2" placeholder="Enter Email" required>
+                    <input id="mail" type="email" class="shadow-lg border rounded-lg p-2" placeholder="Enter Email"
+                        required>
                 </div>
                 <div class="flex flex-row  justify-center items-center space-x-1">
                     <label class="text-2xl">Message:</label>
-                    <input id="msg" type="text" class="shadow-lg border rounded-lg w-[500px] p-2" placeholder="Message me 😄, Let's Built Yours...!" required>
+                    <input id="msg" type="text" class="shadow-lg border rounded-lg w-[500px] p-2"
+                        placeholder="Message me 😄, Let's Built Yours...!" required>
                 </div>
                 <div class="flex flex-row  justify-center items-center space-x-1">
                     <button id="btn"
-                        class="bg-green-600 text-white px-4 py-2 border rounded-lg hover:bg-green-900 ">Submit</button>
+                        class="pulsate-fwd bg-green-600 text-white px-4 py-2 border rounded-full hover:bg-green-900 ">Submit</button>
                     <h3 id="end"></h3>
                 </div>
             </div>
