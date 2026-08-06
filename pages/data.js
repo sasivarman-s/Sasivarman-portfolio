@@ -16,7 +16,8 @@ btn.addEventListener("click", (e) => {
     end.style.padding = "10px"
     end.style.fontSize = "20px"
     end.style.borderRadius = "30px"
-    end.innerHTML = "Submitted successfully, I'll contact you ASAP!..."
+    end.innerHTML = "Submitted successfully, I'll contact you ASAP 🫡❤️"
+    alert("Submitted to developer")
 
     savedata(name.value, phnumber.value, mail.value, msg.value)
 
