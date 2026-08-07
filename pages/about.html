@@ -9,6 +9,27 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="assets/WEB/css/satoshi.css">
+    <style>
+        .puff-in-top {
+            animation: puff-in-top 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+        }
+
+        @keyframes puff-in-top {
+            0% {
+                transform: scale(2);
+                transform-origin: 50% 0%;
+                filter: blur(4px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                transform-origin: 50% 0%;
+                filter: blur(0px);
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 
 <body class="bg-indigo-200 hover:cursor-pointer">
@@ -74,7 +95,7 @@
     <section class="py-10">
         <div class="max-w-[100%]">
             <div class="w-[80%] md:w-[60%] mx-auto grid grid-cols-1">
-                <div class="space-y-2">
+                <div class=" puff-in-top space-y-2">
                     <h2 class="text-4xl">Meet Sasivarman: Website developer and CSE Student.</h2>
                     <p class="text-xl leading-2 p-2">Sasivarman S is a passionate Computer Science and Engineering
                         undergraduate at Meenakshi
@@ -85,7 +106,7 @@
                         AI-Based Student Academic Recognition System and a Digi Logbook System using Python and file
                         handling concepts, demonstrating his ability to create real-world solutions. Along with
                         technical expertise, he possesses strong communication, leadership, teamwork, and critical
-                        thinking skills. His academic achievements, including an 8.20 GPA in his first semester 
+                        thinking skills. His academic achievements, including an 8.20 GPA in his first semester
                         and 8.97 GPAin 2nd semester,
                         school-level first rank, Best Student Award, and participation in technical symposiums, reflect
                         his dedication to continuous learning, innovation, and professional growth as he prepares for
