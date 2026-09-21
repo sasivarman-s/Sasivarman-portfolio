@@ -6,10 +6,6 @@ btn.addEventListener("click", (e) => {
     var mail = document.getElementById("mail")
     var msg = document.getElementById("msg")
     var end = document.getElementById("end")
-    console.log(name.value)
-    console.log(phnumber.value)
-    console.log(mail.value)
-    console.log(msg.value)
     btn.remove("btn")
     end.style.backgroundColor = "gray"
     end.style.color = "white"
